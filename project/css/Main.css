@@ -1,0 +1,244 @@
+html, body{
+    background-color: #f5f5f5;
+	height:100%;
+	font-family: Times, serif;
+}
+.div-stick {
+    width: 50%;
+    overflow: hidden;
+}
+#div-stick-solo {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+#text-name {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: normal;
+    color: #323C8D;
+    text-align: center;
+}
+
+.stick {
+    margin-top:1%;
+    width: 100%;
+    height: 5px;
+}
+
+#logo {
+    margin-left:1%;
+    margin-right:1%;
+}
+#main-div-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-header {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: normal;
+    color: #323C8D;
+    text-align: center;
+}
+#header {
+    margin-left:5%;
+    margin-right:5%;
+}
+.superbutton{
+	display: flex;
+	position: relative;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 1px -1px #000;
+	user-select: none;
+	padding: .5em 3em;
+	outline: none;
+	background-color: #283a90;
+	background-image: linear-gradient(49deg, rgba(255,255,255,.0) 50%, rgba(255,255,256,.8), rgba(255,255,255,.0) 70%), radial-gradient(100% 100% at 60% 0%, rgba(255,255,255,.9) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+	background-repeat: no-repeat;
+	background-size: 140% 120%, auto;
+	background-position: 170% 0, 0 0;
+	background-position: 170% 0, 0 0;
+	box-shadow: rgba(0,0,0,.1) 0 2px 4px;
+	border-radius: 10px;
+	height:35px;
+	margin-left:75%;
+	margin-top:-5%;
+}
+.superbutton:active {
+	top: 1px;
+	box-shadow: none;
+}
+.superbutton:hover {
+	transition: .5s linear;
+	background-position: -200% 0, 0 0;
+	opacity: 1;
+}
+.input-group{	
+	display: flex;
+	width: 50%;
+	margin-bottom: 15px;
+}
+
+.bgr2 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+	width: 200px;
+	height: 200px;
+	background: black;
+	position: absolute;
+	left:-100px; 
+}
+.nav-btn{
+	width: 20px;
+	height: 20px;
+	background: black;
+	position: absolute;
+	top:150px;
+	left: 10px;
+
+}
+
+.nav{
+	transition: all 0.5s ease;
+}
+
+.spr {
+	background-color: #323c8d;/* #9db1cc  323c8d  c5d0e6*/
+	width: 89%;
+	height: 45px;
+	display: block;
+	position: absolute;
+  	z-index: 10000;
+  	margin-top:1%;
+ 	margin-left:5%;
+    margin-right:5%;
+  	font-family:"Times New Roman", Georgia, Serif;
+	}
+			
+.spr ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+}
+.spr ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	}	
+/* отображаем выпадающий список при наведении */
+.spr ul li:hover > ul {
+	display:inherit;
+}		
+/* первый уровень выпадающего списка */
+.spr ul ul li {
+	min-width:140px;
+	min-height:-10px;
+	float:none;
+	display:list-item;
+	position: relative;
+	width:180px;
+}
+.spr ul ul ul {
+	position: absolute;
+	left:100%;
+}
+/* применяем inline-block позиционирование к элементам навигации */
+.spr ul li {
+	margin: 0px -7px 0 0;
+	display:inline-block;
+	background-color: #323c8d;
+}			
+			/* стилизуем ссылки */
+.spr a {
+	display:block;
+	padding:0 10px;
+	color:#FFF;
+	font-size:20px;
+	line-height: 45px;
+	text-decoration:none;
+	font-size: 18px; 
+}			
+			/* изменяем цвет фона при наведении курсора */
+.spr a:hover {
+	background-color: #b0c4de;
+	font-size: 18px;
+color:white;
+text-decoration: none; 
+
+}
+a { font-size: 18px; }
+
+.menu-right {
+	float: right;
+  }
+  
+  .hFooter {
+	clear: both;
+	height: 80px;
+
+}
+.addEdt{
+	margin-top:2.5%;
+	margin-right: 2%;
+	height: 2%;
+}
+
+.empty_field:focus {
+	outline: 3px solid orange;
+}
+
+.form-border {
+    margin-top:2%;
+    margin-left:20%;
+    margin-right:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid #323C8D;
+    border-radius: 8px; /* Радиус скругления */
+}
+.description-text {
+    font-size: 16px;
+    line-height: 20px;
+    text-indent: 0;
+    font-family: Times, serif, sans-serif;
+    color: #404040; 
+    text-align: center;
+    margin-bottom:5%;
+}
+.color-text {
+    color:red;
+}
+.div-2 {
+    margin-top: 17px;
+}
+.div-1 {
+    margin-top: 17px;
+}
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:5%;
+    margin-left:35%;
+    margin-right:35%;
+}
+.input-group-test {
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
